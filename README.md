@@ -18,7 +18,11 @@ systemctl restart apache2
     An update in 2017 included the following notice:
 
 NOTICE: Not enabling PHP 5.6 FPM by default.
+
 NOTICE: To enable PHP 5.6 FPM in Apache2 do:
+
 NOTICE: a2enmod proxy_fcgi setenvif
+
 NOTICE: a2enconf php5.6-fpm
+
 NOTICE: You are seeing this message because you have apache2 package installed.
